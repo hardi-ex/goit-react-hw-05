@@ -1,0 +1,74 @@
+.div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+  gap: 20px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.textContainer h4 {
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.textContainer h5 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.textContainer p,
+li {
+  font-size: 22px;
+  font-weight: 600px;
+}
+
+.textContainer ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.imgContainer {
+  max-width: 600px;
+  max-height: 300px;
+}
+
+.img {
+  max-width: 600px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.link {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.linkBack {
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 30px;
+  &:hover {
+    color: #c94747;
+    transition: color 250ms ease-in-out;
+  }
+}
+
+.activeNavLink {
+  color: #c94747;
+  text-decoration: underline;
+  transition: color 150ms ease-in-out, text-decoration 150ms ease-in-out;
+}

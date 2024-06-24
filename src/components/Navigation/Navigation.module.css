@@ -1,0 +1,41 @@
+.header {
+  background-color: rgb(14, 16, 49);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.mainInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  pointer-events: none;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.list li {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.activeNavLink {
+  color: #c94747;
+  text-decoration: underline;
+  transition: color 350ms ease-in-out, text-decoration 350ms ease-in-out;
+}

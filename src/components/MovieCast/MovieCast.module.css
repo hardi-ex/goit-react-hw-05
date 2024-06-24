@@ -1,0 +1,13 @@
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.ul li {
+  width: 200px;
+  height: 400px;
+}
