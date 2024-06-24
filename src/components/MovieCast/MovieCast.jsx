@@ -21,7 +21,7 @@ export const MovieCast = () => {
   }, [movieId]);
   return (
     <>
-      {actors?.length === 0 && <p>No info</p>}
+      {actors?.length === 0 && <p className={css.title}>No info</p>}
       <ul className={css.ul}>
         {actors?.map((actor) => (
           <li key={actor?.id}>

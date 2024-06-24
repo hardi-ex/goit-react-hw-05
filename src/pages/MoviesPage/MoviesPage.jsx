@@ -31,12 +31,7 @@ const MoviesPage = () => {
   const handleSubmit = async (evt) => {
     evt.preventDefault();
     if (searchTerm.trim() === "") {
-      toast("WARNING: Please enter search term", {
-        style: {
-          color: "white",
-          background: "red",
-        },
-      });
+      toast.error("Please enter search term", {});
       return;
     }
     try {
