@@ -34,3 +34,10 @@
 .button:hover {
   background-color: rgb(43, 47, 126);
 }
+
+.loader {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

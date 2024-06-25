@@ -50,6 +50,14 @@ li {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  margin: 0 auto;
+}
+
+.links li {
+  &:hover {
+    color: #c94747;
+    transition: color 250ms ease-in-out;
+  }
 }
 
 .link {
@@ -71,4 +79,11 @@ li {
   color: #c94747;
   text-decoration: underline;
   transition: color 150ms ease-in-out, text-decoration 150ms ease-in-out;
+}
+
+.loaderContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

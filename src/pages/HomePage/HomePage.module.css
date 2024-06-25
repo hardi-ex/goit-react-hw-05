@@ -7,3 +7,10 @@
   font-weight: 600;
   color: rgb(14, 16, 49);
 }
+
+.loader {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

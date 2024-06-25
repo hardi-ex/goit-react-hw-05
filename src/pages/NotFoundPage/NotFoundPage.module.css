@@ -5,3 +5,7 @@
   flex-direction: column;
   margin: 200px auto;
 }
+
+.div h1 {
+  margin-bottom: 20px;
+}
